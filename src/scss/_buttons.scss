@@ -1,0 +1,33 @@
+@use "variables" as *;
+
+.btn {
+  all: unset;
+  background: linear-gradient(140deg, $clr-acc-cyan, 30%, $clr-acc-blue);
+  border-radius: 35px;
+  cursor: pointer;
+  font-size: .85rem;
+  font-weight: 700;
+  padding-block: 1rem;
+  width: 100%;
+
+  @media (min-width: 760px) {
+    font-size: 1rem;
+  }
+}
+
+.btn:hover {
+  background: $clr-acc-cyan;
+}
+
+.cta__btn {
+  padding-block: .9rem;
+  @media (min-width: 760px) {
+    width: 60%;
+  }
+}
+
+.hero__btn {
+  @media (min-width: 600px) {
+    width: 18rem;
+  }
+}

@@ -1,0 +1,87 @@
+@use "variables" as *;
+
+
+.cta {
+  background: $clr-dark-blue-800;
+}
+
+.cta-container {
+  background: $clr-dark-blue-700;
+  border-radius: 8px;
+  box-shadow: 4px 4px 16px rgba(0,0,0,.3);
+  padding: 2.5rem 1.5rem;
+  margin-inline: 1.2rem;
+  max-width: 850px;
+  text-align: center;
+  transform: translateY(50%);
+
+  @media (min-width: 860px) {
+    margin-inline: auto;
+  }
+}
+
+.cta__title {
+  font-family: $ff-heading;
+  font-size: 1.1rem;
+  padding-block-end: 1.2rem;
+
+  @media (min-width: 840px) {
+    font-size: 2rem;
+  }
+}
+
+.cta__text {
+  font-size: .85rem;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 630px;
+  padding-block-end: 2rem;
+}
+
+.cta__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  position: relative;
+
+  @media (min-width: 760px) {
+    flex-direction: row;
+    padding-inline: 3.5rem;
+  }
+
+}
+
+.email {
+  all: unset;
+  background: white;
+  border-radius: 35px;
+  color: gray;
+  font-size: .85rem;
+  padding-block: .9rem;
+  padding-inline-start: 2rem;
+  text-align: left;
+
+  @media (min-width: 760px) {
+    width: 100%;
+  }
+}
+
+.error-message {
+  color: $clr-acc-red;
+  font-size: .75rem;
+  font-style: italic;
+  position: absolute;
+  top: 3rem;
+  left: 1rem;
+  visibility: hidden;
+
+  @media (min-width: 760px) {
+    top: 3.5rem;
+    left: 5rem;
+  }
+}
+
+.error-message.error{
+  visibility: visible;
+}

@@ -1,0 +1,39 @@
+@use "variables" as *;
+
+.options-holder {
+  text-align: center;
+  padding-inline: 2rem;
+  padding-block: 9rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5rem;
+
+  @media (min-width: 760px) {
+    padding-inline: 18rem;
+  }
+}
+
+.option {
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+.option__img-holder {
+  height: 85px;
+}
+
+.option img {
+  width: 65px;
+}
+
+.option__title {
+  font-size: 1.1rem;
+  padding-block: 1.7rem .7rem;
+
+}
+
+.option__text {
+  line-height: 1.5;
+  font-size: .85rem;
+}

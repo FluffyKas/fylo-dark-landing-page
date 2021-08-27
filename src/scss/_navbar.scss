@@ -1,0 +1,62 @@
+@use "variables" as *;
+
+nav {
+  background: $clr-dark-blue-700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+
+  @media (min-width: 760px) {
+    padding: 4rem 4.5rem;
+  }
+}
+
+.nav-logo {
+  width: 100px;
+
+  @media (min-width: 760px) {
+    width: auto;
+  }
+}
+
+.nav__menu {
+  font-family: $ff-heading;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: .75rem;
+  letter-spacing: 1px;
+
+  @media (min-width: 760px) {
+    font-size: 1rem;
+    gap: 3.5rem;
+  }
+}
+
+.menu-item {
+  list-style:none;
+}
+
+.menu-link,
+.menu-link:active {
+  color: $clr-white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-link::before {
+  @media (min-width: 760px) {
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  }
+}
+
+.menu-link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
