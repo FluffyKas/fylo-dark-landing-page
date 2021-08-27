@@ -28,7 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshots/fylo-dark-landing-page-desktop.jpg)
+![](./screenshots/fylo-dark-landing-page-mobile.jpg)
 
 ### Links
 
