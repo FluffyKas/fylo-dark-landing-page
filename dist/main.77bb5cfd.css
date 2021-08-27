@@ -117,7 +117,6 @@ nav {
   font-size: 0.85rem;
   font-weight: 700;
   padding-block: 1rem;
-  width: 100%;
 }
 @media (min-width: 760px) {
   .btn {
@@ -138,6 +137,9 @@ nav {
   }
 }
 
+.hero__btn {
+  width: 15rem;
+}
 @media (min-width: 600px) {
   .hero__btn {
     width: 18rem;
@@ -538,38 +540,24 @@ footer {
 .social-media {
   display: flex;
   justify-content: center;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 .social-media i {
-  border: 1px solid white;
   border-radius: 50%;
   color: white;
   cursor: pointer;
-  font-size: 0.75rem;
+  font-size: 1.4rem;
   transform: scale(1);
   transition: all 0.2s ease-in-out;
 }
 .social-media i:hover {
-  border: 1px solid #65e2d9;
   color: #65e2d9;
   transform: scale(1.1);
 }
 @media (min-width: 760px) {
   .social-media {
-    gap: 1rem;
+    gap: 1.2rem;
   }
-  .social-media i {
-    font-size: 0.9rem;
-  }
-}
-
-.fa-facebook-f {
-  padding: 0.4rem 0.55rem;
-}
-
-.fa-twitter,
-.fa-instagram {
-  padding: 0.45rem;
 }
 
 * {

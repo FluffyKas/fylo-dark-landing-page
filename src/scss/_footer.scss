@@ -112,38 +112,23 @@ footer {
 .social-media {
   display: flex;
   justify-content: center;
-  gap: .5rem;
+  gap: 1rem;
 
   i {
-    border: 1px solid $clr-white;
     border-radius: 50%;
     color: $clr-white;
     cursor: pointer;
-    font-size: .75rem;
+    font-size: 1.4rem;
     transform: scale(1);
     transition: all .2s ease-in-out;
   }
 
   i:hover {
-    border: 1px solid $clr-acc-cyan;
     color: $clr-acc-cyan;
     transform: scale(1.1);
   }
 
   @media (min-width: 760px) {
-    gap: 1rem;
-
-    i {
-      font-size: .9rem;
-    }
+    gap: 1.2rem;
   }
-}
-
-.fa-facebook-f {
-  padding: .4rem .55rem;
-}
-
-.fa-twitter,
-.fa-instagram {
-  padding: .45rem;
 }
