@@ -22,7 +22,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen sizeCancel changes
 - See hover states for all interactive elements on the page
 
 ### Screenshot
@@ -47,15 +47,15 @@ Users should be able to:
 
 ### What I learned
 
-I had my eye on a couple of tools I would've liked to try since a while. My goal here was to choose a challenge that allows me to focus on these new skills rather than worrying about the layout and such. But as most Frontend Mentor challenges, this one also had its quirks and in the end I thorougly enjoyed myself. So let's see what I learned:
+I had my eye on a couple of tools I would've liked to try since a while. My goal here was to choose a challenge that allows me to focus on these new skills rather than worrying about the layout and such. But as most Frontend Mentor challenges, this one had its quirks. But in the end I thorougly enjoyed myself. So let's see what I learned:
 
 **Sass**
 
-I'm in love with CSS since I first changed the background color to red on my first plain HTML website and Sass just takes it to the next level. I would lie if I said I managed to try everything I wanted but I believe this project is a good a start.
+I'm in love with CSS since I first changed the background color to red in my first plain HTML website and Sass just takes it to the next level. I would lie if I said I managed to try everything I wanted but I believe this project is a good a start.
 
 *Partials, modules*
 
-One big pain with CSS is how long it tends to get. In this challenge I modularized everything, one Sass file to each section, one for variables, one for buttons, etc. Suddenly it became much easier to find what I wanted. :simple_smile:
+One big pain with CSS is how long it tends to get. In this challenge I modularized everything, one Sass file to each section, one for variables, one for buttons, etc. Suddenly it became much easier to find what I wanted.:simple_smile:
 
 *Nesting*
 
