@@ -59,7 +59,7 @@ One big pain with CSS is how long it tends to get. In this challenge I modulariz
 
 *Nesting*
 
-I loved this. How many times I had to scroll all the way down to find my media queries and then back because I already forget what was the padding or font-size that I wanted to change. In this projects I felt like I nested all media queries where they're actually relevant like this:
+I loved this. How many times I had to scroll all the way down to find my media queries and then back because I already forgot what values the padding or font-size had that I wanted to change. In this projects I felt like I nested all media queries how they make the most sense to me, like this:
 
 ```
 .reviews-holder {
@@ -80,7 +80,7 @@ I loved this. How many times I had to scroll all the way down to find my media q
 }
 ```
 
-Vanilla CSS keeps getting better every day with custom variables and so on but these two things I mentioned above I particularly enjoyed about Sass.
+I don't want to take credit away from vanilla CSS as it keeps getting better, but these two features mentioned above I particularly enjoyed about Sass.
 
 **Parcel**
 
