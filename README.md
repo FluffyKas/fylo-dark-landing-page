@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/fylo-dark-landing-page-desktop.jpg)
-![](./screenshots/fylo-dark-landing-page-mobile.jpg)
+![](./screenshots/fylo-dark-landing-page-desktop.png)
+![](./screenshots/fylo-dark-landing-page-mobile.png)
 
 ### Links
 
