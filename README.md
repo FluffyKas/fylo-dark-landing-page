@@ -55,7 +55,7 @@ I'm in love with CSS since I first changed the background color to red in my fir
 
 *Partials, modules*
 
-One big pain with CSS is how long it tends to get. In this challenge I modularized everything, one Sass file to each section, one for variables, one for buttons, etc. Suddenly it became much easier to find what I wanted.:simple_smile:
+One big pain with CSS is how long it tends to get. In this challenge I modularized everything, one Sass file to each section, one for variables, one for buttons, etc. Suddenly it became much easier to find what I wanted.
 
 *Nesting*
 
