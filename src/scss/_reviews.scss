@@ -4,7 +4,8 @@
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  padding-inline: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   position: relative;
   margin: 0 auto;
   max-width: 450px;
@@ -12,7 +13,7 @@
   @media (min-width: 1000px) {
     flex-direction: row;
     gap: 2.5rem;
-    padding-block-start: 9rem;
+    padding-top: 9rem;
     max-width: 1250px;
   }
 
@@ -55,7 +56,7 @@
 .review__text {
   font-size: .65rem;
   line-height: 1.6;
-  padding-block-end: 1rem;
+  padding-bottom: 1rem;
 
   @media (min-width: 1000px) {
     font-size: .85rem;
@@ -82,7 +83,7 @@
   display: block;
   font-size: .65rem;
   font-weight: 700;
-  padding-block-end: .2rem;
+  padding-bottom: .2rem;
 }
 
 .review__title {

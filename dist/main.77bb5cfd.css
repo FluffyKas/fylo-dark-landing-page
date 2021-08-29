@@ -64,13 +64,14 @@ nav {
 }
 
 .hero {
-  line-height: 1.5;
-  padding-inline: 2rem;
-  text-align: center;
   background: url(/bg-curvy-desktop.b3534639.svg), #1c2431;
   background-repeat: no-repeat;
   background-size: 100vw 30vh;
   background-position: bottom;
+  line-height: 1.5;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: center;
 }
 
 .hero__img-holder img {
@@ -78,17 +79,18 @@ nav {
   height: auto;
   margin: 0 auto;
   max-width: 100%;
-  padding-block: 1.3rem 2rem;
+  padding-top: 1.3rem;
+  padding-bottom: 2rem;
 }
 
 .hero__title {
   font-family: "Raleway", sans-serif;
-  padding-block-end: 1.1rem;
+  padding-bottom: 1.1rem;
 }
 @media (min-width: 760px) {
   .hero__title {
     font-size: 2.5rem;
-    padding-block-end: 1.8rem;
+    padding-bottom: 1.8rem;
     margin: 0 auto;
     max-width: 800px;
   }
@@ -97,13 +99,15 @@ nav {
 .hero__text {
   font-family: "Open Sans", sans-serif;
   font-size: 0.85rem;
-  padding-block-end: 1.8rem;
-  padding-inline: 0.6rem;
+  padding-bottom: 1.8rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
 }
 @media (min-width: 760px) {
   .hero__text {
     font-size: 1.25rem;
-    padding-inline: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
     margin: 0 auto;
     max-width: 740px;
   }
@@ -148,8 +152,7 @@ nav {
 
 .options-holder {
   text-align: center;
-  padding-inline: 2rem;
-  padding-block: 9rem;
+  padding: 9rem 2rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -157,7 +160,7 @@ nav {
 }
 @media (min-width: 760px) {
   .options-holder {
-    padding-inline: 18rem;
+    padding: 9rem 18rem;
   }
 }
 
@@ -176,7 +179,8 @@ nav {
 
 .option__title {
   font-size: 1.1rem;
-  padding-block: 1.7rem 0.7rem;
+  padding-top: 1.7rem;
+  padding-bottom: 0.7rem;
 }
 
 .option__text {
@@ -185,14 +189,16 @@ nav {
 }
 
 .productivity {
-  padding-inline: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 @media (min-width: 1100px) {
   .productivity {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-inline: 9rem;
+    padding-left: 9rem;
+    padding-right: 9rem;
     gap: 3rem;
   }
 }
@@ -207,7 +213,8 @@ nav {
 .productivity__title {
   font-family: "Raleway", sans-serif;
   font-size: 1.1rem;
-  padding-block: 3rem 1.3rem;
+  padding-top: 3rem;
+  padding-bottom: 1.3rem;
 }
 @media (min-width: 1100px) {
   .productivity__title {
@@ -219,7 +226,7 @@ nav {
 .productivity-link-holder {
   position: relative;
   font-size: 0.8rem;
-  margin-block-end: 10rem;
+  margin-bottom: 10rem;
 }
 @media (min-width: 1100px) {
   .productivity-link-holder {
@@ -245,7 +252,7 @@ nav {
 .productivity__text {
   font-size: 0.85rem;
   line-height: 1.5;
-  padding-block-end: 1rem;
+  padding-bottom: 1rem;
 }
 @media (min-width: 1100px) {
   .productivity__text {
@@ -264,7 +271,8 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  padding-inline: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   position: relative;
   margin: 0 auto;
   max-width: 450px;
@@ -273,7 +281,7 @@ nav {
   .reviews-holder {
     flex-direction: row;
     gap: 2.5rem;
-    padding-block-start: 9rem;
+    padding-top: 9rem;
     max-width: 1250px;
   }
 }
@@ -315,7 +323,7 @@ nav {
 .review__text {
   font-size: 0.65rem;
   line-height: 1.6;
-  padding-block-end: 1rem;
+  padding-bottom: 1rem;
 }
 @media (min-width: 1000px) {
   .review__text {
@@ -343,7 +351,7 @@ nav {
   display: block;
   font-size: 0.65rem;
   font-weight: 700;
-  padding-block-end: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 .review__title {
@@ -359,21 +367,23 @@ nav {
   border-radius: 8px;
   box-shadow: 4px 4px 16px rgba(0, 0, 0, 0.3);
   padding: 2.5rem 1.5rem;
-  margin-inline: 1.2rem;
+  margin-left: 1.2rem;
+  margin-right: 1.2rem;
   max-width: 850px;
   text-align: center;
   transform: translateY(50%);
 }
 @media (min-width: 860px) {
   .cta-container {
-    margin-inline: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
 .cta__title {
   font-family: "Raleway", sans-serif;
   font-size: 1.1rem;
-  padding-block-end: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 @media (min-width: 840px) {
   .cta__title {
@@ -386,7 +396,7 @@ nav {
   line-height: 1.6;
   margin: 0 auto;
   max-width: 630px;
-  padding-block-end: 2rem;
+  padding-bottom: 2rem;
 }
 
 .cta__form {
@@ -399,7 +409,8 @@ nav {
 @media (min-width: 760px) {
   .cta__form {
     flex-direction: row;
-    padding-inline: 3.5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
   }
 }
 
@@ -409,8 +420,9 @@ nav {
   border-radius: 35px;
   color: gray;
   font-size: 0.85rem;
-  padding-block: 0.9rem;
-  padding-inline-start: 2rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+  padding-left: 2rem;
   text-align: left;
 }
 @media (min-width: 760px) {
@@ -441,15 +453,17 @@ nav {
 
 footer {
   background: #0b1523;
-  padding-block: 14rem 2.5rem;
-  padding-inline: 1.8rem;
+  padding-top: 14rem;
+  padding-bottom: 2.5rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
 }
 
 @media (min-width: 760px) {
   .footer__img-holder {
     margin: 0 auto;
     max-width: 1200px;
-    padding-block-end: 3rem;
+    padding-bottom: 3rem;
   }
   .footer__img-holder img {
     width: 110px;
@@ -473,12 +487,12 @@ footer {
   gap: 2rem;
   font-size: 1rem;
   line-height: 1.5;
-  padding-block-start: 2.5rem;
+  padding-top: 2.5rem;
 }
 @media (min-width: 760px) {
   .location {
     flex: 0 1 25rem;
-    padding-block-start: 0;
+    padding-top: 0;
   }
 }
 
@@ -488,11 +502,11 @@ footer {
   gap: 2rem;
   font-size: 0.85rem;
   list-style: none;
-  padding-block-start: 1.5rem;
+  padding-top: 1.5rem;
 }
 @media (min-width: 760px) {
   .contact-list {
-    padding-block-start: 0;
+    padding-top: 0;
   }
 }
 
@@ -503,11 +517,13 @@ footer {
 }
 
 .footer-links-wrapper {
-  padding-block: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 @media (min-width: 760px) {
   .footer-links-wrapper {
-    padding-block: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     display: flex;
     justify-content: space-evenly;
     gap: 5rem;
@@ -522,7 +538,7 @@ footer {
 }
 
 .footer-links:nth-child(1) {
-  padding-block-end: 3rem;
+  padding-bottom: 3rem;
 }
 
 .footer-links li a,

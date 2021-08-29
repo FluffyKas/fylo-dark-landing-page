@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/fylo-dark-landing-page-desktop.jpg)
-![](./screenshots/fylo-dark-landing-page-mobile.jpg)
+![](./screenshots/fylo-dark-landing-page-desktop.png)
+![](./screenshots/fylo-dark-landing-page-mobile.png)
 
 ### Links
 
@@ -61,7 +61,8 @@ One big pain with CSS is how long it tends to get. In this challenge I modulariz
 
 I loved this. How many times I had to scroll all the way down to find my media queries and then back because I already forget what was the padding or font-size that I wanted to change. In this projects I felt like I nested all media queries where they're actually relevant like this:
 
-`.reviews-holder {
+```
+.reviews-holder {
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
@@ -77,7 +78,7 @@ I loved this. How many times I had to scroll all the way down to find my media q
     max-width: 1250px;
   }
 }
-`
+```
 
 Vanilla CSS keeps getting better every day with custom variables and so on but these two things I mentioned above I particularly enjoyed about Sass.
 
@@ -95,14 +96,16 @@ Having separate dev/build came with its own problems. Do I need to upload Sass f
 
 Navbar links have a font-weight of 400 and they change to 700 as you hover over them. Sounds easy, but this one gave me a real headache as the whole menu kept jumping around as the changed font-weight required some extra space. Not a big issue I suppose, but it hurt my eyes. Here's the solution I used: 
 
-`.menu-link::before {
+```
+.menu-link::before {
   display: block;
   content: attr(title);
   font-weight: bold;
   height: 0;
   overflow: hidden;
   visibility: hidden;
-}`
+}
+```
 
 Not the most elegant solution perhaps but the one I found the most reliable. Hopefully I'll never have to change font-weight in navbar links again but if I do, I'll probably come back to this. 
 

@@ -2,15 +2,14 @@
 
 .options-holder {
   text-align: center;
-  padding-inline: 2rem;
-  padding-block: 9rem;
+  padding: 9rem 2rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 5rem;
 
   @media (min-width: 760px) {
-    padding-inline: 18rem;
+    padding: 9rem 18rem;
   }
 }
 
@@ -29,8 +28,8 @@
 
 .option__title {
   font-size: 1.1rem;
-  padding-block: 1.7rem .7rem;
-
+  padding-top: 1.7rem;
+  padding-bottom: .7rem;
 }
 
 .option__text {

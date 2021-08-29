@@ -2,8 +2,10 @@
 
 footer {
   background: $clr-dark-blue-900;
-  padding-block: 14rem 2.5rem;
-  padding-inline: 1.8rem;
+  padding-top: 14rem;
+  padding-bottom: 2.5rem;
+  padding-left: 1.8rem;
+  padding-right: 1.8rem;
 }
 
 // FOOTER LOGO
@@ -12,7 +14,7 @@ footer {
   @media (min-width: 760px) {
     margin: 0 auto;
     max-width: 1200px;
-    padding-block-end: 3rem;
+    padding-bottom: 3rem;
 
     img {
       width: 110px;
@@ -42,11 +44,11 @@ footer {
   gap: 2rem;
   font-size: 1rem;
   line-height: 1.5;
-  padding-block-start: 2.5rem;
+  padding-top: 2.5rem;
 
   @media (min-width: 760px) {
     flex: 0 1 25rem;
-    padding-block-start: 0;
+    padding-top: 0;
   }
 }
 
@@ -58,10 +60,10 @@ footer {
   gap: 2rem;
   font-size: .85rem;
   list-style: none;
-  padding-block-start: 1.5rem;
+  padding-top: 1.5rem;
 
   @media (min-width: 760px) {
-    padding-block-start: 0;
+    padding-top: 0;
   }
 }
 
@@ -74,10 +76,12 @@ footer {
 //FLEX ITEM 3: FOOTER LINKS
 
 .footer-links-wrapper {
-  padding-block: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 
   @media (min-width: 760px) {
-    padding-block: 0;
+    padding-top: 0;
+    padding-bottom: 0;
     display: flex;
     justify-content: space-evenly;
     gap: 5rem;
@@ -92,7 +96,7 @@ footer {
 }
 
 .footer-links:nth-child(1) {
-  padding-block-end: 3rem;
+  padding-bottom: 3rem;
 }
 
 .footer-links li a,
