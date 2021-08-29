@@ -22,7 +22,7 @@ This is a solution to the [Fylo dark theme landing page challenge on Frontend Me
 
 Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
+- View the optimal layout for the site depending on their device's screen sizeCancel changes
 - See hover states for all interactive elements on the page
 
 ### Screenshot
@@ -47,6 +47,7 @@ Users should be able to:
 
 ### What I learned
 
+<<<<<<< HEAD
 I had my eye on a couple of tools I would've liked to try since a while. My goal here was to choose a challenge that allows me to focus on these new skills rather than worrying about the layout and such. But as most Frontend Mentor challenges, this one also had its quirks and in the end I thorougly enjoyed myself. So let's see what I learned:
 
 **Sass**
@@ -60,6 +61,21 @@ One big pain with CSS is how long it tends to get. In this challenge I modulariz
 *Nesting*
 
 I loved this. How many times I had to scroll all the way down to find my media queries and then back because I already forget what was the padding or font-size that I wanted to change. In this projects I felt like I nested all media queries where they're actually relevant like this:
+=======
+I had my eye on a couple of tools I would've liked to try since a while. My goal here was to choose a challenge that allows me to focus on these new skills rather than worrying about the layout and such. But as most Frontend Mentor challenges, this one had its quirks. But in the end I thorougly enjoyed myself. So let's see what I learned:
+
+**Sass**
+
+I'm in love with CSS since I first changed the background color to red in my first plain HTML website and Sass just takes it to the next level. I would lie if I said I managed to try everything I wanted but I believe this project is a good a start.
+
+*Partials, modules*
+
+One big pain with CSS is how long it tends to get. In this challenge I modularized everything, one Sass file to each section, one for variables, one for buttons, etc. Suddenly it became much easier to find what I wanted.
+
+*Nesting*
+
+I loved this. How many times I had to scroll all the way down to find my media queries and then back because I already forgot what values the padding or font-size had that I wanted to change. In this projects I felt like I nested all media queries how they make the most sense to me, like this:
+>>>>>>> e699a016ab11f3b631cdacfcb4d57d406089ce1e
 
 ```
 .reviews-holder {
@@ -80,7 +96,11 @@ I loved this. How many times I had to scroll all the way down to find my media q
 }
 ```
 
+<<<<<<< HEAD
 Vanilla CSS keeps getting better every day with custom variables and so on but these two things I mentioned above I particularly enjoyed about Sass.
+=======
+I don't want to take credit away from vanilla CSS as it keeps getting better, but these two features mentioned above I particularly enjoyed about Sass.
+>>>>>>> e699a016ab11f3b631cdacfcb4d57d406089ce1e
 
 **Parcel**
 
@@ -124,4 +144,8 @@ Frontend's Slack Group:
 I'd like to thank Ameus Namite from Frontend Mentor's Slack for patiently answering my questions about Netlify.
 Big thanks also to Alex Kim for clearing up my misconceptions about crossbrowser support!
 
+<<<<<<< HEAD
 Thank YOU, if you were so kind to take the time and have a read through of this README. :purple_heart:
+=======
+Thank YOU, if you were so kind to take the time and have a read through of this README. :purple_heart:
+>>>>>>> e699a016ab11f3b631cdacfcb4d57d406089ce1e
