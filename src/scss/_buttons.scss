@@ -7,7 +7,8 @@
   cursor: pointer;
   font-size: .85rem;
   font-weight: 700;
-  padding-block: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 
   @media (min-width: 760px) {
     font-size: 1rem;
@@ -19,7 +20,8 @@
 }
 
 .cta__btn {
-  padding-block: .9rem;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
   @media (min-width: 760px) {
     width: 60%;
   }
