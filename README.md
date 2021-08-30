@@ -120,8 +120,13 @@ I definitely need to experiment more with the tools I just used to build the pro
 
 ## Acknowledgments
 
-Frontend's Slack Group:
+Frontend Mentor Community:
+
+I'm so grateful for your designs as it makes my coding journey so much smoother.
+
 I'd like to thank Ameus Namite from Frontend Mentor's Slack for patiently answering my questions about Netlify.
 Big thanks also to Alex Kim for clearing up my misconceptions about crossbrowser support!
+And to Abdulrhman Kotb for saving me a few lines of code with his box-shadow trick!
+
 
 Thank YOU, if you were so kind to take the time and have a read through of this README. :purple_heart:
