@@ -199,6 +199,11 @@ nav {
     padding: 9rem 18rem;
   }
 }
+@media (min-width: 1700px) {
+  .options-holder {
+    padding: 9rem 26rem;
+  }
+}
 
 .option {
   margin: 0 auto;
@@ -662,6 +667,18 @@ footer {
   .social-media {
     gap: 1.2rem;
   }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+}
+
+.active {
+  transform: translateY(0px);
+  opacity: 1;
 }
 
 * {
