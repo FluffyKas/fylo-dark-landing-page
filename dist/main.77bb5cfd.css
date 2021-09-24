@@ -63,6 +63,23 @@ nav {
   text-decoration: underline;
 }
 
+.menu-link:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
+.menu-link:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do support :focus-visible */
+  outline: none;
+}
+
+.menu-link:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
 .hero {
   background: url(/bg-curvy-desktop.b3534639.svg), #1c2431;
   background-repeat: no-repeat;
@@ -131,6 +148,23 @@ nav {
 
 .btn:hover {
   background: #65e2d9;
+}
+
+.btn:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
+.btn:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do s  upport :focus-visible */
+  outline: none;
+}
+
+.btn:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted #65e2d9;
 }
 
 .cta__btn {
@@ -253,6 +287,23 @@ nav {
 .productivity__link:active {
   color: #65e2d9;
   text-decoration: none;
+}
+
+.productivity__link:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
+.productivity__link:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do support :focus-visible */
+  outline: none;
+}
+
+.productivity__link:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted #65e2d9;
 }
 
 .reviews-holder {
@@ -419,6 +470,23 @@ nav {
   }
 }
 
+.email:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
+.email:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do s  upport :focus-visible */
+  outline: none;
+}
+
+.email:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
 .error-message {
   color: #ff4242;
   font-size: 0.75rem;
@@ -541,9 +609,27 @@ footer {
   color: #65e2d9;
 }
 
+.footer-links li a:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
+.footer-links li a:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do s  upport :focus-visible */
+  outline: none;
+}
+
+.footer-links li a:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+
 .social-media {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 1rem;
 }
 .social-media i {
@@ -557,6 +643,20 @@ footer {
 .social-media i:hover {
   color: #65e2d9;
   transform: scale(1.1);
+}
+.social-media a:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted #65e2d9;
+}
+.social-media a:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do s  upport :focus-visible */
+  outline: none;
+}
+.social-media a:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted #65e2d9;
 }
 @media (min-width: 760px) {
   .social-media {

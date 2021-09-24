@@ -111,11 +111,29 @@ footer {
   color: $clr-acc-cyan;
 }
 
+.footer-links li a:focus {
+  /* Provide a fallback style for browsers
+     that don't support :focus-visible */
+  outline: 3px dotted $clr-acc-cyan;
+}
+
+.footer-links li a:focus:not(:focus-visible) {
+  /* Remove the focus indicator on mouse-focus for browsers
+     that do s  upport :focus-visible */
+  outline: none;
+}
+
+.footer-links li a:focus-visible {
+  /* for browsers that do support :focus-visible */
+  outline: 3px dotted $clr-acc-cyan;
+}
+
 //FLEX ITEM 4: SOCIAL MEDIA LINKS
 
 .social-media {
   display: flex;
   justify-content: center;
+  align-items: flex-start;
   gap: 1rem;
 
   i {
@@ -130,6 +148,23 @@ footer {
   i:hover {
     color: $clr-acc-cyan;
     transform: scale(1.1);
+  }
+
+  a:focus {
+    /* Provide a fallback style for browsers
+       that don't support :focus-visible */
+    outline: 3px dotted $clr-acc-cyan;
+  }
+  
+  a:focus:not(:focus-visible) {
+    /* Remove the focus indicator on mouse-focus for browsers
+       that do s  upport :focus-visible */
+    outline: none;
+  }
+  
+  a:focus-visible {
+    /* for browsers that do support :focus-visible */
+    outline: 3px dotted $clr-acc-cyan;
   }
 
   @media (min-width: 760px) {
